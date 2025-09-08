@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "nombre": "Talavera Poblana",
+    "colores": ["#FFFFFF", "#0A4F8B", "#E8C135", "#3A3A3A", "#C4442A"]
+  },
+  {
+    "id": 2,
+    "nombre": "Atardecer en Holbox",
+    "colores": ["#F94144", "#F3722C", "#F8961E", "#F9C74F", "#90BE6D"]
+  },
+  {
+    "id": 3,
+    "nombre": "Barro Negro de Oaxaca",
+    "colores": ["#212529", "#343A40", "#495057", "#6C757D", "#ADB5BD"]
+  },
+  {
+    "id": 4,
+    "nombre": "Trajinera de Xochimilco",
+    "colores": ["#00B4D8", "#0077B6", "#FFD60A", "#E5383B", "#C77DFF"]
+  },
+  {
+    "id": 5,
+    "nombre": "Cenote Maya",
+    "colores": ["#00C49A", "#00A383", "#2C7873", "#544E61", "#6E6362"]
+  },
+  {
+    "id": 6,
+    "nombre": "Papel Picado",
+    "colores": ["#EF476F", "#FFD166", "#06D6A0", "#118AB2", "#073B4C"]
+  },
+  {
+    "id": 7,
+    "nombre": "Mural de Siqueiros",
+    "colores": ["#A4161A", "#660708", "#BA181B", "#E5383B", "#B1A7A6"]
+  },
+  {
+    "id": 8,
+    "nombre": "San Miguel de Allende",
+    "colores": ["#D5A021", "#B23A48", "#52B69A", "#F7B801", "#3D405B"]
+  },
+  {
+    "id": 9,
+    "nombre": "Noche Estrellada en Wirikuta",
+    "colores": ["#03045E", "#0077B6", "#00B4D8", "#90E0EF", "#CAF0F8"]
+  },
+  {
+    "id": 10,
+    "nombre": "Alebrije Oaxaqueño",
+    "colores": ["#FF006E", "#8338EC", "#3A86FF", "#FFBE0B", "#FB5607"]
+  },
+  {
+    "id": 11,
+    "nombre": "Cañón del Sumidero",
+    "colores": ["#2D6A4F", "#40916C", "#52B788", "#74C69D", "#95D5B2"]
+  },
+  {
+    "id": 12,
+    "nombre": "Maíz Criollo",
+    "colores": ["#FDF0D5", "#C6AC8F", "#8A6F58", "#6F5E53", "#4A403A"]
+  },
+  {
+    "id": 13,
+    "nombre": "Plaza de Coyoacán",
+    "colores": ["#FCA311", "#E5E5E5", "#14213D", "#000000", "#7209B7"]
+  },
+  {
+    "id": 14,
+    "nombre": "Frida y sus flores",
+    "colores": ["#D00000", "#FFBA08", "#3F88C5", "#032B43", "#136F63"]
+  },
+  {
+    "id": 15,
+    "nombre": "Agave Azul Tequilana",
+    "colores": ["#B0D7D1", "#7FB3A7", "#5B8F86", "#3E6B62", "#294842"]
+  }
+]

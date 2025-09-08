@@ -1,0 +1,158 @@
+/* --- Reset y Estilos Base --- */
+:root {
+    --background-color: #f4f4f9;
+    --text-color: #333;
+    --primary-color: #d9534f;
+    --card-background: #ffffff;
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* --- Contenedor Principal --- */
+.container {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2#palette-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #555;
+    min-height: 2.2rem;
+    transition: opacity 0.3s ease;
+}
+
+/* --- Paleta de Colores --- */
+.palette-container {
+    display: flex;
+    height: 50vh;
+    min-height: 350px;
+    max-height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    background-color: var(--card-background);
+}
+
+.color-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: flex 0.4s ease, background-color 0.4s ease;
+}
+
+.color-column:hover {
+    flex: 1.2;
+}
+
+.hex-code {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.copy-feedback {
+    position: absolute;
+    bottom: 20px;
+    background-color: var(--text-color);
+    color: var(--card-background);
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.color-column:hover .hex-code {
+    transform: translateY(-10px);
+}
+
+/* --- Botón de Generar --- */
+.generate-btn {
+    margin-top: 40px;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.generate-btn:hover {
+    background-color: #c9302c;
+    transform: translateY(-3px);
+}
+
+.generate-btn:active {
+    transform: translateY(0);
+}
+
+/* --- Media Queries para Responsividad --- */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2#palette-name {
+        font-size: 1.2rem;
+    }
+    .palette-container {
+        flex-direction: column;
+        height: 70vh;
+        max-height: none;
+    }
+    .color-column:hover {
+        flex: 1; /* Desactiva efecto hover en móvil */
+    }
+    .hex-code {
+        font-size: 0.9rem;
+    }
+}
+/* --- Crédito de Autor --- */
+.author-credit {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    font-size: 0.8rem;
+    color: #0000007f;
+    font-weight: 400;
+}
